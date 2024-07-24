@@ -1,0 +1,7 @@
+# Enable fullscreen by default
+fs=yes
+
+# Set audio languages to Japanese, French, English
+alang=jpn,jp,fra,fr,eng,en
+# Set subtitles languages to French, English, Japanese
+slang=fra,fr,eng,en,jpn,jp
