@@ -5,7 +5,7 @@ Those are my... well, dotfiles.
 ## Usage
 
 ```bash
-git clone https://github.com/xxxxxxxxxx/yyyyyyyyyy ~/
+git clone https://github.com/AyumiToshiyuki/dotfiles ~/
 ~/dotfiles/apply.sh
 ```
 
