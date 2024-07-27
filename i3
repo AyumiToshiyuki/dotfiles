@@ -81,7 +81,7 @@ bindsym $mod+Shift+KP_Subtract resize shrink height 5 px or 5 ppt
 
 bindsym $mod+Return 	exec --no-startup-id "kitty"
 bindsym $mod+F      	exec --no-startup-id "firefox"
-bindsym $mod+R      	exec --no-startup-id "rofi -show run"
+bindsym $mod+R      	exec --no-startup-id "PATH=$PATH:~/.local/bin rofi -show run"
 bindsym Mod1+Tab 		exec --no-startup-id "rofi -show window"
 bindsym $mod+U 			exec --no-startup-id "ulauncher"
 bindsym Print       	exec --no-startup-id "escrotum -sC"
