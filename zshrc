@@ -84,7 +84,7 @@ alias mv='mv -i'
 alias cal='cal -m'
 
 # Mkdir then cd into it
-mkcd() { mkdir $1 && cd $1; }
+mkcd() { mkdir $1 && cd $1 }
 
 # Replace ls with eza
 alias l='eza -lh --color=always --icons=always --no-quotes --group-directories-first --smart-group --git'
@@ -108,7 +108,7 @@ vx() {
 
 # Weeb Stuff
 alias a='ani-cli'
-random-anime() { ani-cli $(cat ~/anime-to-watch | shuf -n 1 | cut -d$'\t' -f2); }
+random-anime() { ani-cli $(cat ~/anime-to-watch | shuf -n 1 | cut -d$'\t' -f2) }
 
 # *Fluttershy noises*
 alias y='yay'
@@ -124,7 +124,7 @@ alias :wqa='exit'
 alias gimme='sudo chown $USER:$USER'
 
 # Exec a command with i3
-run() { i3-msg "exec --no-startup-id $1" &>/dev/null}
+run() { i3-msg "exec --no-startup-id $1" &>/dev/null }
 
 # Open a new terminal from the current directory
 alias n='setsid kitty &>/dev/null &'
