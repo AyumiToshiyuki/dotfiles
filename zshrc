@@ -96,9 +96,15 @@ alias cla='c && la'
 alias q='exit'
 alias c='clear'
 alias r='ranger'
-alias v='nvim'
 alias x='chmod +x'
 alias g='xgamma -gamma'
+
+# NeoVim stuff
+alias v='nvim'
+vx() {
+	nvim "$1"
+	chmod +x "$1"
+}
 
 # Weeb Stuff
 alias a='ani-cli'
