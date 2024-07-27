@@ -133,31 +133,12 @@ alias n='setsid kitty &>/dev/null &'
 alias yt3='yt-dlp -x --audio-format mp3'
 alias yt4='yt-dlp -f mp4'
 
-# Launch osu!lazer
-osu() {
-	mkdir -p .local/share/osu # Create osu! directory
-	wget -O ~/.local/share/osu/osu.AppImage https://github.com/ppy/osu/releases/latest/download/osu.AppImage; # "Check" for updates
-	chmod +x ~/.local/share/osu/osu.AppImage # Set osu to executable
-	killall picom; # Close picom, it causes osu to run at like 15fps for some reason
-	~/.local/share/osu/osu.AppImage; # Run osu
-	run picom # Reopen picom
-}
-# Launch osu!stable
-winosu() {
-	killall picom;
-	osu-wine "$@";
-	run picom;
-}
-
 # Tablet stuff
 alias tablet-reset='xrandr --output DP-0 --mode 2560x1440 --rate 165 --output HDMI-0 --same-as DP-0 --scale `echo "2560/1920" | bc -l`x`echo "1440/1080" | bc -l`' # in case --auto doesn't work
 alias tablet-on='xrandr --output HDMI-0 --auto'
 alias tablet-off='xrandr --output HDMI-0 --off'
 alias tablet-3='xrandr --output HDMI-0 --mode 1920x1080 --rate 60 --pos 1640x1440 && ~/.fehbg' # Give the tablet its own screen
 alias restart-otd='systemctl --user restart opentabletdriver'
-
-# Use NeoVim instead of Vim
-alias vim='nvim'
 
 # Install Vencord when Discord update deletes it
 alias vencord='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
