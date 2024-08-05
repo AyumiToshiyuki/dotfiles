@@ -133,6 +133,9 @@ alias n='setsid kitty &>/dev/null &'
 alias yt3='yt-dlp -x --audio-format mp3'
 alias yt4='yt-dlp -f mp4'
 
+# Select and play file from ~/Music with mpv
+alias m='mpv "$(find ~/Music -type f | fzf --delimiter / --with-nth -1)"'
+
 # Tablet stuff
 alias tablet-reset='xrandr --output DP-0 --mode 2560x1440 --rate 165 --output HDMI-0 --same-as DP-0 --scale `echo "2560/1920" | bc -l`x`echo "1440/1080" | bc -l`' # in case --auto doesn't work
 alias tablet-on='xrandr --output HDMI-0 --auto'

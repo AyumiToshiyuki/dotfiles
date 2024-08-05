@@ -95,6 +95,7 @@ exec_always --no-startup-id "killall polybar; .config/polybar/start.sh"
 exec_always --no-startup-id "killall picom; picom"
 exec_always --no-startup-id "otd-daemon"
 exec --no-startup-id "buckle -s 1 -g 10"
+exec --no-startup-id "fcitx -d"
 
 ######################################################################## COLORS
 

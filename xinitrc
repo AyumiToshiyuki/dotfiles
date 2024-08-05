@@ -31,7 +31,7 @@ fi
 # ==================================================================
 
 # Change keyboard layout
-setxkbmap fr
+#setxkbmap fr
 
 # Enable numlock
 numlockx &
