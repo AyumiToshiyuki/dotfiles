@@ -42,10 +42,10 @@ autoload -U compinit && compinit
 zinit cdreplay -q
 
 # Enable oh-my-posh
-if [ "$TERM" = "linux" ]; then
-	eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/prompt-tty.toml)"
-else
+if [ "$TERM" = "xterm-kitty" ]; then
 	eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/prompt.toml)"
+else
+	eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/prompt-tty.toml)"
 fi
 
 # History
