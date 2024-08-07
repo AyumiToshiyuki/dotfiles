@@ -87,6 +87,12 @@ bindsym $mod+U 			exec --no-startup-id "ulauncher"
 bindsym Print       	exec --no-startup-id "escrotum -sC"
 bindsym $mod+Shift+X	exec --no-startup-id ".local/bin/powermenu"
 
+######################################################################## MOCP CONTROL
+
+bindsym $mod+F1			exec --no-startup-id "mocp -G"
+bindsym $mod+F2			exec --no-startup-id "mocp -f"
+bindsym $mod+Shift+F2	exec --no-startup-id "mocp -r"
+
 ######################################################################## AUTOSTART
 
 exec_always --no-startup-id ".local/bin/fixx"
@@ -96,6 +102,7 @@ exec_always --no-startup-id "killall picom; picom"
 exec_always --no-startup-id "otd-daemon"
 exec --no-startup-id "buckle -s 1 -g 10"
 exec --no-startup-id "fcitx -d"
+exec --no-startup-id "mocp -S ~/.moc/playlist.m3u; mocp -o shuffle; mocp -p; mocp -P"
 
 ######################################################################## COLORS
 
