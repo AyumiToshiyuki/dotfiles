@@ -92,6 +92,8 @@ bindsym $mod+Shift+X	exec --no-startup-id ".local/bin/powermenu"
 bindsym $mod+F1			exec --no-startup-id "mocp -G"
 bindsym $mod+F2			exec --no-startup-id "mocp -f"
 bindsym $mod+Shift+F2	exec --no-startup-id "mocp -r"
+bindsym $mod+F3			exec --no-startup-id "mocp -k -10"
+bindsym $mod+F4			exec --no-startup-id "mocp -k +10"
 
 ######################################################################## AUTOSTART
 
