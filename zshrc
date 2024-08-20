@@ -74,7 +74,7 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Make rm, cp and mkdir recursive
 alias rm='rm -rf'
-alias cp⁼'cp -r'
+alias cp='cp -r'
 alias mkdir='mkdir -p'
 
 # Ask mv before overwriting file
