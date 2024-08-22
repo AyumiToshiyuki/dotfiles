@@ -13,6 +13,10 @@ PATH="$HOME/.local/bin:$PATH"
 # Set editor to NeoVim
 export EDITOR=nvim
 
+# Bury the VERY ANNOYING go folder in .cache
+export GOPATH=/home/$(whoami)/.cache/go
+export GOMODCACHE=/home/$(whoami)/.cache/go/pkg/mod
+
 # Enable auto-cd (cd into a dir just by typing its name)
 setopt autocd
 
