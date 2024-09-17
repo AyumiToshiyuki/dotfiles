@@ -5,3 +5,6 @@ fs=yes
 alang=jpn,jp,fra,fr,eng,en
 # Set subtitles languages to French, English, Japanese
 slang=fra,fr,eng,en,jpn,jp
+
+# Set default volume to 50%
+volume=50
