@@ -129,4 +129,4 @@ for_window [class="VirtualBox Machine"]	fullscreen enable
 for_window [class="Qemu-system-x86_64"]	floating enable
 for_window [class="Qemu-system-i386"] 	floating enable
 
-for_window [class="soh.elf"] floating enable, border pixel 0
+for_window [class="soh.elf"] floating enable
