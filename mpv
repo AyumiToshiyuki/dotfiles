@@ -7,4 +7,4 @@ alang=jpn,jp,fra,fr,eng,en
 slang=fra,fr,eng,en,jpn,jp
 
 # Set default volume to 50%
-volume=50
+#volume=50
