@@ -1,15 +1,15 @@
-# dotfiles
+# Dotfiles
 
 Those are my... well, dotfiles.
 
 ## Usage
 
 ```bash
-git clone https://github.com/AyumiToshiyuki/dotfiles ~/
-~/dotfiles/apply.sh
+git clone https://github.com/AyumiToshiyuki/Dotfiles ~/
+~/Dotfiles/apply.sh
 ```
 
-The `dotfiles` directory **HAS** to be in `~`, or else the `apply.sh` script won't work!
+The `Dotfiles` directory **HAS** to be in `~`, or else the `apply.sh` script won't work!
 
 ## Contains dotfiles for
 
