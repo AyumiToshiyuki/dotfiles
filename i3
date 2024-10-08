@@ -127,6 +127,8 @@ client.background       $bg
 for_window [class="VirtualBox Machine"]	fullscreen enable
 
 for_window [class="Qemu-system-x86_64"]	floating enable
+for_window [class="qemu-system-x86_64"]	floating enable
 for_window [class="Qemu-system-i386"] 	floating enable
+for_window [class="qemu-system-i386"] 	floating enable
 
 for_window [class="soh.elf"] floating enable
