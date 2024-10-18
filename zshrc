@@ -92,6 +92,7 @@ mkcd() { mkdir $1 && cd $1 }
 
 # Replace ls with eza
 alias l='eza -lh --color=always --icons=always --no-quotes --group-directories-first --smart-group --git'
+alias ld='eza -lh --color=always --icons=always --no-quotes --smart-group --git'
 alias la='l -a'
 alias cl='c && l'
 alias cla='c && la'
