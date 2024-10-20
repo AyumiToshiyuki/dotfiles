@@ -104,6 +104,13 @@ alias r='ranger'
 alias x='chmod +x'
 alias g='xgamma -gamma'
 
+# fzf shortcuts
+alias fzff='find * -maxdepth 0 -type f | fzf'
+alias fzfd='find * -maxdepth 0 -type d | fzf'
+alias cf='cd "$(fzfd)"'
+alias mf='mpv "$(fzff)"'
+alias vf='v "$(fzff)"'
+
 # NeoVim stuff
 alias v='nvim'
 vx() {
