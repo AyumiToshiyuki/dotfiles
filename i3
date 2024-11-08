@@ -67,7 +67,8 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+H split v
 bindsym $mod+V split h
 
-bindsym $mod+space floating toggle
+#bindsym $mod+space floating toggle
+bindsym $mod+F floating toggle
 
 bindsym $mod+F11 fullscreen toggle
 bindsym $mod+P exec --no-startup-id "polybar-msg cmd toggle"
@@ -80,7 +81,7 @@ bindsym $mod+Shift+KP_Subtract resize shrink height 5 px or 5 ppt
 ######################################################################## APPLICATIONS
 
 bindsym $mod+Return 	exec --no-startup-id "kitty"
-bindsym $mod+F      	exec --no-startup-id "firefox"
+#bindsym $mod+F      	exec --no-startup-id "firefox"
 bindsym $mod+R      	exec --no-startup-id "PATH=$PATH:~/.local/bin rofi -show run"
 bindsym Mod1+Tab 		exec --no-startup-id "rofi -show window"
 bindsym $mod+U 			exec --no-startup-id "ulauncher"
