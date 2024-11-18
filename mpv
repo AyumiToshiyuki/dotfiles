@@ -3,8 +3,8 @@ fs=yes
 
 # Set audio languages to Japanese, French, English
 alang=jpn,jp,fra,fr,eng,en
-# Set subtitles languages to French, English, Japanese
-slang=fra,fr,eng,en,jpn,jp
+# Set subtitles languages to English, French, Japanese
+slang=eng,en,fra,fr,jpn,jp
 
 # Set default volume to 50%
 #volume=50
