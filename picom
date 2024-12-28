@@ -46,8 +46,8 @@ blur-kern = "11,11,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 opacity-rule = [
 	"95:class_g = 'kitty' && focused",
 	"66:class_g = 'kitty' && !focused",
-	"95:class_g = 'discord' && focused",
-	"66:class_g = 'discord' && !focused",
+	"95:class_g = 'discord' && !fullscreen && focused",
+	"66:class_g = 'discord' && !fullscreen && !focused",
 	"95:class_g = 'Polybar'"
 ]
 
