@@ -133,3 +133,6 @@ for_window [class="Qemu-system-i386"] 	floating enable
 for_window [class="qemu-system-i386"] 	floating enable
 
 for_window [class="soh.elf"] floating enable
+
+for_window [class="mist"]   floating enable
+for_window [class="zenity"] floating enable

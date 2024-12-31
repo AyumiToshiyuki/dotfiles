@@ -175,3 +175,5 @@ if [ $(date "+%B") = "June" ]; then
 		echo "Happy Pride Month!\n" | lolcat -tF 1
 	fi
 fi
+
+. "$HOME/.cargo/env"
