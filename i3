@@ -136,3 +136,5 @@ for_window [class="soh.elf"] floating enable
 
 for_window [class="mist"]   floating enable
 for_window [class="zenity"] floating enable
+
+for_window [class="sonic3air_linux"] floating enable
