@@ -138,3 +138,5 @@ for_window [class="mist"]   floating enable
 for_window [class="zenity"] floating enable
 
 for_window [class="sonic3air_linux"] floating enable
+
+for_window [class="mpv"] floating enable

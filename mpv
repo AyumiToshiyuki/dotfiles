@@ -1,5 +1,5 @@
 # Enable fullscreen by default
-fs=yes
+#fs=yes
 
 # Set audio languages to Japanese, French, English
 alang=jpn,jp,fra,fr,eng,en
