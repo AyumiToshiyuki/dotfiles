@@ -12,6 +12,8 @@ ln -nsf ~/dotfiles/picom		~/.config/picom.conf
 ln -nsf ~/dotfiles/nvim			~/.config/nvim
 
 # Files in ~/.config/*
+mkdir ~/.config/feh
+ln -nsf ~/dotfiles/feh-buttons	~/.config/feh/buttons
 mkdir ~/.config/i3
 ln -nsf ~/dotfiles/i3			~/.config/i3/config
 mkdir ~/.config/kitty
