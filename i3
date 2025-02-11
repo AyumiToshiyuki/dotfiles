@@ -85,7 +85,7 @@ bindsym $mod+Return 	exec --no-startup-id "kitty"
 bindsym $mod+R      	exec --no-startup-id "PATH=$PATH:~/.local/bin rofi -show run"
 bindsym Mod1+Tab 		exec --no-startup-id "rofi -show window"
 bindsym $mod+U 			exec --no-startup-id "ulauncher"
-bindsym Print       	exec --no-startup-id "escrotum -sC"
+bindsym Print       	exec --no-startup-id "scrot -fs - | xclip -selection clipboard -t image/png"
 bindsym $mod+Shift+X	exec --no-startup-id ".local/bin/powermenu"
 
 ######################################################################## MOCP CONTROL
