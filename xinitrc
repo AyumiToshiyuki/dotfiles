@@ -43,5 +43,10 @@ xrandr --output DP-2 --pos 2560x200 --mode 1920x1080 --rate 165
 # Set mouse speed
 xinput set-prop "USB Gaming Mouse" "libinput Accel Speed" -0.8
 
+# Disable DPMS and screensaver
+xset -dpms
+setterm -blank 0 -powerdown 0
+xset s off
+
 # Launch i3
 exec i3
