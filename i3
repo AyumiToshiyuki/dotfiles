@@ -96,6 +96,10 @@ bindsym $mod+Shift+F2	exec --no-startup-id "mocp -r"
 bindsym $mod+F3			exec --no-startup-id "mocp -k -10"
 bindsym $mod+F4			exec --no-startup-id "mocp -k +10"
 
+bindsym XF86AudioRaiseVolume	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10%
+bindsym XF86AudioLowerVolume	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10%
+bindsym XF86AudioMute			exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+
 ######################################################################## AUTOSTART
 
 exec_always --no-startup-id ".local/bin/fixx"
