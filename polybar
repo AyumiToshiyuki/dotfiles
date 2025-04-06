@@ -123,15 +123,15 @@
 
 [module/mocp-state]
 	type = custom/script
-	exec = mocp -Q "%state"
+	exec = mocp -Q "%state" 2>/dev/null
 	interval = 1
 
 [module/mocp-song]
 	type = custom/script
-	exec = mocp -Q "%title"
+	exec = mocp -Q "%title" 2>/dev/null
 	interval = 1
 
 [module/mocp-time]
 	type = custom/script
-	exec = mocp -Q "%ct/%tt"
+	exec = mocp -Q "%ct/%tt" 2>/dev/null
 	interval = 1
