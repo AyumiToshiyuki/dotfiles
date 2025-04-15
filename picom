@@ -20,7 +20,8 @@ shadow-exclude = [
   "class_g ?= 'Notify-osd'",
   "class_g = 'Cairo-clock'",
   "_GTK_FRAME_EXTENTS@:c",
-  "class_g = 'Ulauncher'"
+  "class_g = 'Ulauncher'",
+  "class_g = 'fl64.exe'"
 ];
 
 #################################
