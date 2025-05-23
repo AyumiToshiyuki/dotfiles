@@ -88,6 +88,7 @@ bindsym $mod+U 			exec --no-startup-id "ulauncher"
 bindsym Print       	exec --no-startup-id "scrot -fs - | xclip -selection clipboard -t image/png"
 bindsym $mod+Shift+X	exec --no-startup-id ".local/bin/powermenu"
 bindsym $mod+C			exec --no-startup-id "rofi -e $(echo $(rofi -dmenu -p calc -l 0) | bc -l)"
+bindsym $mod+B			exec --no-startup-id "rofi -e \\"$(rofi -dmenu -p command -l 0 | PATH=$PATH:~/.local/bin sh)\\""
 
 ######################################################################## MOCP CONTROL
 
