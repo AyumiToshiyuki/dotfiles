@@ -6,5 +6,13 @@ alang=jpn,jp,fra,fr,eng,en
 # Set subtitles languages to English, French, Japanese
 slang=eng,en,fra,fr,jpn,jp
 
+# Set subs style
+sub-font="A-TTF Shin Go Pro"
+sub-font-size=48 #default=38
+sub-outline-size=3.5 #default=1.65
+sub-blur=0.2 #default=0
+sub-bold=yes #default=no
+sub-color=1/0.85/0.4 #default=1/1/1
+
 # Set default volume to 50%
 #volume=50
