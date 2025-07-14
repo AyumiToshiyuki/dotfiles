@@ -8,7 +8,7 @@ slang=eng,en,fra,fr,jpn,jp
 
 # Set subs style
 sub-font="Ubuntu"
-sub-font-size=48 #default=38
+sub-font-size=44 #default=38
 sub-outline-size=3.5 #default=1.65
 sub-blur=0.2 #default=0
 sub-bold=yes #default=no
