@@ -111,7 +111,7 @@ exec_always --no-startup-id "~/.fehbg"
 exec_always --no-startup-id "killall polybar; .config/polybar/start.sh"
 exec_always --no-startup-id "killall picom; picom"
 exec_always --no-startup-id "otd-daemon"
-exec --no-startup-id "buckle -s 1 -g 10"
+exec --no-startup-id "buckle -s 0 -g 10"
 exec --no-startup-id "fcitx -d"
 exec --no-startup-id "mocp -S ~/.moc/playlist.m3u; mocp -o shuffle; mocp -p; mocp -P"
 
