@@ -30,9 +30,9 @@
 	separator = |
 	separator-foreground = ${colors.disabled}
 	font-0 = Luxi Mono:style=Regular:size=16:antialiasing;2
-	font-1 = Font Awesome 6 Free;2
-	font-2 = Font Awesome 6 Free Solid;2
-	font-3 = Font Awesome 6 Brands;2
+	font-1 = Font Awesome 7 Free;2
+	font-2 = Font Awesome 7 Free Solid;2
+	font-3 = Font Awesome 7 Brands;2
 	font-4 = Noto Serif CJK JP:style=SemiBold:size=16;2
 	modules-left = xworkspaces
 	modules-center = xwindow
