@@ -80,15 +80,15 @@ bindsym $mod+Shift+KP_Subtract resize shrink height 5 px or 5 ppt
 
 ######################################################################## APPLICATIONS
 
-bindsym $mod+Return 	exec --no-startup-id "kitty"
-#bindsym $mod+F      	exec --no-startup-id "firefox"
-bindsym $mod+R      	exec --no-startup-id "PATH=$PATH:~/.local/bin rofi -show run"
-bindsym Mod1+Tab 		exec --no-startup-id "rofi -show window"
-bindsym $mod+U 			exec --no-startup-id "ulauncher"
-bindsym Print       	exec --no-startup-id "scrot -fs - | xclip -selection clipboard -t image/png"
-bindsym $mod+Shift+X	exec --no-startup-id ".local/bin/powermenu"
-bindsym $mod+C			exec --no-startup-id "rofi -e $(echo $(rofi -dmenu -p calc -l 0) | bc -l)"
-bindsym $mod+B			exec --no-startup-id "rofi -e \\"$(rofi -dmenu -p command -l 0 | PATH=$PATH:~/.local/bin sh)\\""
+bindsym $mod+Return 		exec --no-startup-id "kitty"
+bindsym $mod+R      		exec --no-startup-id "PATH=$PATH:~/.local/bin rofi -show run"
+bindsym Mod1+Tab 			exec --no-startup-id "rofi -show window"
+bindsym Print       		exec --no-startup-id "scrot -fs - | xclip -selection clipboard -t image/png"
+bindsym Ctrl+Print			exec --no-startup-id "scrot -M 0"
+bindsym Ctrl+Shift+Print	exec --no-startup-id "scrot -M 1"
+bindsym $mod+Shift+X		exec --no-startup-id ".local/bin/powermenu"
+bindsym $mod+C				exec --no-startup-id "rofi -e $(echo $(rofi -dmenu -p calc -l 0) | bc -l)"
+bindsym $mod+B				exec --no-startup-id "rofi -e \\"$(rofi -dmenu -p command -l 0 | PATH=$PATH:~/.local/bin sh)\\""
 
 ######################################################################## MOCP CONTROL
 
