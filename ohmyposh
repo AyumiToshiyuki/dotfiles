@@ -1,4 +1,4 @@
-version = 3
+version = 4
 final_space = true
 
 [secondary_prompt]
@@ -19,7 +19,7 @@ final_space = true
     foreground = 'blue'
     type = 'os'
 
-    [blocks.segments.properties]
+    [blocks.segments.options]
       cache_duration = 'none'
 
   [[blocks.segments]]
@@ -27,7 +27,7 @@ final_space = true
     type = 'path'
     foreground_templates = ['{{if .Writable}}blue{{else}}red{{end}}']
 
-    [blocks.segments.properties]
+    [blocks.segments.options]
       cache_duration = 'none'
       style = 'full'
 
@@ -36,7 +36,7 @@ final_space = true
     foreground = '#6c6c6c'
     type = 'git'
 
-    [blocks.segments.properties]
+    [blocks.segments.options]
       branch_icon = ''
       cache_duration = 'none'
       commit_icon = '@'
@@ -51,7 +51,7 @@ final_space = true
     foreground = 'yellow'
     type = 'executiontime'
 
-    [blocks.segments.properties]
+    [blocks.segments.options]
       cache_duration = 'none'
       threshold = 5000
 
@@ -66,5 +66,5 @@ final_space = true
     style = 'plain'
     foreground_templates = ['{{if gt .Code 0}}red{{end}}', '{{if eq .Code 0}}green{{end}}']
 
-    [blocks.segments.properties]
+    [blocks.segments.options]
       cache_duration = 'none'
